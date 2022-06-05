@@ -44,6 +44,10 @@ address {
                         width: 100%;
                         max-width: 140px;
                         font-family: "Poppins", sans-serif;
+                        --spacing: 20px;
+                        --radius: 8px;
+                        --padding: 5px;
+                        --border: #eee;
                     }
 
                     .dropdown-select {

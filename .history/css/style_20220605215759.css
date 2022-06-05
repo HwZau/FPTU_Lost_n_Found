@@ -44,12 +44,16 @@ address {
                         width: 100%;
                         max-width: 140px;
                         font-family: "Poppins", sans-serif;
+                        --spacing: 20px;
+                        --radius: 8px;
+                        --padding: 5px;
+                        --border: #eee;
                     }
 
                     .dropdown-select {
-                        padding: 5px;
+                        padding: var(--padding);
                         border: 1px solid #eee;
-                        border-radius: 8px;
+                        border-radius: var(--radius);
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
@@ -74,7 +78,7 @@ address {
                         width: 100%;
                         z-index: 10;
                         border: 1px solid #eee;
-                        border-radius: 8px;
+                        border-radius: var(--radius);
                         opacity: 0;
                         visibility: hidden;
                         transition: all 0.2s ease;
@@ -96,7 +100,7 @@ address {
                     }
 
                     .dropdown-item {
-                        padding: 20px;
+                        padding: var(--padding);
                         cursor: pointer;
                         font-size: 12px;
                         background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
