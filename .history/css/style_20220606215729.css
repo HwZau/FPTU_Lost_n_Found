@@ -96,7 +96,7 @@ address {
                     }
 
                     .dropdown-item {
-                        padding: 5px;
+                        padding: 10px;
                         cursor: pointer;
                         font-size: 12px;
                         background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
