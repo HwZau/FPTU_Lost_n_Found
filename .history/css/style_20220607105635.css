@@ -27,7 +27,6 @@ background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, F
 }
   
 .footer {
-  
 	background-color: #D1C4E9;
 	margin: 0px auto;
 	padding: 20px 0px 20px 0px;
@@ -130,7 +129,7 @@ address {
   margin-top: 20px;
   background: -webkit-linear-gradient(to right, #f5af199d, #f127118e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f5af19, #f12711); 
-  width: 100%;
+  width: 200px;
 }
 .Nav-username{
   margin-left: 10px;
@@ -224,7 +223,7 @@ footer{
 .tab-content{
   position: relative;
   margin-left: 10%;
-  min-height: 730px;
+  min-height: 705px;
 }
 .tab-pane{
 
@@ -286,5 +285,5 @@ img{
   opacity: 80%;
 }
 #postform{
-  min-height: 730px;
+  min-h
 }
