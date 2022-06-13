@@ -316,42 +316,24 @@ img{
   top: 32px;
   left: -60px;
 }
-.tabs--profile{
-  justify-content: flex-start;
-  margin-left: 10%;
+#header .nav-bar li:hover a {
+  background-color: #ccc;
+  color: black;
 }
-.profile{
-  border-radius: 30px;
-  width: 98%;
-  border: solid 1px orange;
+#header .sub-nav-bar li:hover {
+  background-color: #ccc;
 }
-.tabs-profile--post{
-  flex-direction: column;
-  align-items: flex-start;
+#header .sub-nav-bar .sub-list {
+  display: none;
+  width: 145px;
+  position: absolute;
+  color: #333;
+  background-color: white;
+  top: 46.5px;
 }
-.profile-img{
-  display: inline-block;
-  border: solid 1px orange;
+#header .sub-nav-bar:hover .sub-list {
+  display: block;
 }
-.profile-img img{
-  width: 200px;
-  height: 200px;
-  border-radius: 100rem;
-}
-.profile-username{
-  font-size: 24px;
-}
-.tab-content--profile{
-  margin-left: 1%;
-  border: solid 1px orange;
-  border-radius: 30px;
-  width: 98%;
-  
-}
-.pane-content{
-  margin: 30px 0 0 40px;
-  text-align: center;
-}
-.pane-content--info{
-  font-size: 24px;
+#header .sub-nav-bar li {
+  padding: 10px 16px;
 }

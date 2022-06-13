@@ -321,8 +321,7 @@ img{
   margin-left: 10%;
 }
 .profile{
-  border-radius: 30px;
-  width: 98%;
+  width: 99%;
   border: solid 1px orange;
 }
 .tabs-profile--post{
@@ -339,19 +338,5 @@ img{
   border-radius: 100rem;
 }
 .profile-username{
-  font-size: 24px;
-}
-.tab-content--profile{
-  margin-left: 1%;
-  border: solid 1px orange;
-  border-radius: 30px;
-  width: 98%;
-  
-}
-.pane-content{
-  margin: 30px 0 0 40px;
-  text-align: center;
-}
-.pane-content--info{
   font-size: 24px;
 }
