@@ -35,6 +35,9 @@ postTabs.forEach((postTab, index) => {
         $('.tab-post-item.active').classList.remove('active')
         $('.tab-post-pane.active').classList.remove('active')
 
+        line.style.left = this.offsetLeft + "px"
+        line.style.width = this.offsetWidth + "px"
+
         this.classList.add('active')
         postPanes.classList.add('active')
     }

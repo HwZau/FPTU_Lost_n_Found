@@ -8,7 +8,6 @@ const postPanes = $$('.tab-post-pane');
 
 const tabActive = $('.tab-item.active');
 const tabPostActive = $('.tab-post-item.active');
-
 const line = $('.tabs .line');
 
 line.style.left = tabActive.offsetLeft + "px"
@@ -28,14 +27,17 @@ tabs.forEach((tab, index) => {
         pane.classList.add('active')
     }
 })
-postTabs.forEach((postTab, index) => {
-    const postPanes = postPanes[index]
-    postTab.onclick = function(){
+postTabs.forEach((tab, index) => {
+    const pane = panes[index]
+    tab.onclick = function(){
 
-        $('.tab-post-item.active').classList.remove('active')
-        $('.tab-post-pane.active').classList.remove('active')
+        $('.tab-item.active').classList.remove('active')
+        $('.tab-pane.active').classList.remove('active')
+
+        line.style.left = this.offsetLeft + "px"
+        line.style.width = this.offsetWidth + "px"
 
         this.classList.add('active')
-        postPanes.classList.add('active')
+        pane.classList.add('active')
     }
 })
