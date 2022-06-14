@@ -167,12 +167,12 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
   opacity: 0.8;
   cursor: pointer;
 }
-.tab-items{
+.tab-item{
   font-weight: 500;
   padding: 19px 40px 10px 40px;
   text-align: center;
 }
-.tab-items:hover{
+.tab-item:hover{
   opacity: 0.8;
   cursor: pointer;
 }
@@ -232,9 +232,6 @@ footer{
   min-height: 730px;
 }
 .tab-pane{
-width: 100%;
-}
-.tab-panes{
 width: 100%;
 }
 .pane{

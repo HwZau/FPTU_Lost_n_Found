@@ -1,8 +1,8 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-const tabs = $$('.tab-item');
-const panes = $$('.tab-pane');
+const tabs = $$('.tab-items');
+const panes = $$('.tab-panes');
 
 const tabActive = $('.tab-item.active');
 const line = $('.tabs .line');

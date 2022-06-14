@@ -167,15 +167,6 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
   opacity: 0.8;
   cursor: pointer;
 }
-.tab-items{
-  font-weight: 500;
-  padding: 19px 40px 10px 40px;
-  text-align: center;
-}
-.tab-items:hover{
-  opacity: 0.8;
-  cursor: pointer;
-}
 .tabs{
   position: relative;
 }
@@ -232,9 +223,6 @@ footer{
   min-height: 730px;
 }
 .tab-pane{
-width: 100%;
-}
-.tab-panes{
 width: 100%;
 }
 .pane{
@@ -338,10 +326,9 @@ img{
   border: solid 1px orange;
 }
 .tabs-profile--post{
-  transform: translateY(-186px);
   min-height: 730px;
   display: inline-flex;
-  width: 410px;
+  width: 12%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -365,7 +352,7 @@ img{
   
 }
 .tab-pane--profile{
-  float: left;
+  display: flex;
 }
 .pane-content{
   margin: 30px 0 0 40px;
@@ -375,11 +362,9 @@ img{
   font-size: 24px;
 }
 .btn-tabs-profile--post{
-  margin-left: 20px;
-  padding: 20px;
   width: 300px;
-  border-top: solid 1px orange ;
-  border-bottom: solid 1px orange ;
+  border: solid 1px orange ;
+  border-radius: 8px;
 }
 .btn-tabs-profile--post:hover{
   background-color: rgba(255, 166, 0, 0.5);
