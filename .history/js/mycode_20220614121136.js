@@ -39,6 +39,6 @@ postTabs.forEach((postTab, index) => {
         $('.tab-post-pane.active').classList.remove('active')
 
         this.classList.add('active')
-        postPane.classList.add('active')
+        postPanes.classList.add('active')
     }
 })

@@ -10,7 +10,6 @@ const postPanes = $$('.tab-post-pane');
 const tabActive = $('.tab-item.active');
 const tabPostActive = $('.tab-post-item.active');
 
-console.log(tabActive, tabPostActive)
 
 const line = $('.tabs .line');
 
@@ -32,13 +31,13 @@ tabs.forEach((tab, index) => {
     }
 })
 postTabs.forEach((postTab, index) => {
-    const postPane = postPanes[index]
+    const postPanes = postPanes[index]
     postTab.onclick = function(){
 
         $('.tab-post-item.active').classList.remove('active')
         $('.tab-post-pane.active').classList.remove('active')
 
         this.classList.add('active')
-        postPane.classList.add('active')
+        postPanes.classList.add('active')
     }
 })

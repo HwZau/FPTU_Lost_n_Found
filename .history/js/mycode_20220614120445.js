@@ -3,15 +3,12 @@ const $$ = document.querySelectorAll.bind(document);
 
 const tabs = $$('.tab-item');
 const panes = $$('.tab-pane');
-
 const postTabs = $$('.tab-post-item');
 const postPanes = $$('.tab-post-pane');
 
 const tabActive = $('.tab-item.active');
 const tabPostActive = $('.tab-post-item.active');
-
-console.log(tabActive, tabPostActive)
-
+con
 const line = $('.tabs .line');
 
 line.style.left = tabActive.offsetLeft + "px"
@@ -32,13 +29,13 @@ tabs.forEach((tab, index) => {
     }
 })
 postTabs.forEach((postTab, index) => {
-    const postPane = postPanes[index]
+    const postPanes = postPanes[index]
     postTab.onclick = function(){
 
         $('.tab-post-item.active').classList.remove('active')
         $('.tab-post-pane.active').classList.remove('active')
 
         this.classList.add('active')
-        postPane.classList.add('active')
+        postPanes.classList.add('active')
     }
 })

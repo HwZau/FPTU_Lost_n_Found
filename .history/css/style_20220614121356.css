@@ -235,7 +235,7 @@ footer{
 width: 100%;
 }
 .tab-post-pane{
-display: none;
+display: h;
 }
 .pane{
   margin-right: 40px;
@@ -385,4 +385,3 @@ img{
   background-color: rgba(255, 166, 0, 0.5);
   color: white;
 }
-
