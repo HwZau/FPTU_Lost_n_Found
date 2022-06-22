@@ -383,13 +383,12 @@ img{
   display: inline-block;
   position: relative;
   left: 50%;
-  transform: translateX(-51%);
+  transform: translateX(-40%);
   margin-left: 1%;
   border: solid 1px orange;
   border-radius: 30px;
   width: 98%;
-  text-align: left;
-  padding:1% 0 1% 7%;
+  
 }
 .tab-pane--profile{
   

@@ -252,11 +252,8 @@ display: none;
   padding:10px;
   width: 20%;
   min-height: 200px;
-  word-wrap: normal;
   overflow: hidden;
-  text-overflow: ellipsis;
-  max-height: 325px;
- 
+  tex
 }
 .pane-img:hover{
   opacity: 0.7;
@@ -279,13 +276,8 @@ display: none;
 img{
   
 }
-.pane-content p{
-  height: 25px;
-  word-break: break-all;
-  word-wrap: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: left;
+.pane-content{
+
 }
 .pane-content p{
   
@@ -380,19 +372,13 @@ img{
   font-size: 24px;
 }
 .tab-content--profile{
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-51%);
   margin-left: 1%;
   border: solid 1px orange;
   border-radius: 30px;
   width: 98%;
-  text-align: left;
-  padding:1% 0 1% 7%;
+  
 }
 .tab-pane--profile{
-  
   float: left;
 }
 .pane-content{

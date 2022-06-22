@@ -388,8 +388,7 @@ img{
   border: solid 1px orange;
   border-radius: 30px;
   width: 98%;
-  text-align: left;
-  padding:1% 0 1% 7%;
+  text-align: center;
 }
 .tab-pane--profile{
   

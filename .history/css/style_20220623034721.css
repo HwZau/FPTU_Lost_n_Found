@@ -280,8 +280,6 @@ img{
   
 }
 .pane-content p{
-  height: 25px;
-  word-break: break-all;
   word-wrap: normal;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -380,19 +378,13 @@ img{
   font-size: 24px;
 }
 .tab-content--profile{
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-51%);
   margin-left: 1%;
   border: solid 1px orange;
   border-radius: 30px;
   width: 98%;
-  text-align: left;
-  padding:1% 0 1% 7%;
+  
 }
 .tab-pane--profile{
-  
   float: left;
 }
 .pane-content{
