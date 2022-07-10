@@ -178,9 +178,8 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
   cursor: pointer;
 }
 .tab-item.active{
-  border-radius: 8px;
   color:white;
-  background: linear-gradient(to right, #f5af1996, #f127118f);
+  background-color: #d08d41;
 }
 .tab-items{
   font-weight: 500;

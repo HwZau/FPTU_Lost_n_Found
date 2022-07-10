@@ -168,7 +168,7 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
   color: white;
 }
 .tab-item{
-  
+  back
   font-weight: 500;
   padding: 19px 40px 10px 40px;
   text-align: center;
@@ -176,11 +176,6 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
 .tab-item:hover{
   opacity: 0.8;
   cursor: pointer;
-}
-.tab-item.active{
-  border-radius: 8px;
-  color:white;
-  background: linear-gradient(to right, #f5af1996, #f127118f);
 }
 .tab-items{
   font-weight: 500;

@@ -127,7 +127,6 @@ address {
   width: 700px;
 }
 #Navbar{
-  margin-left: 90%;
   z-index: 5;
   margin-top: 12px;
   background: -webkit-linear-gradient(to right, #f5af199d, #f127118e);  /* Chrome 10-25, Safari 5.1-6 */
@@ -135,7 +134,7 @@ address {
   width: 200px;
 }
 .Nav-username{
-  margin-right: 10px;
+  margin-left: 10px;
   color: #ffff;
 }
 .center{
@@ -168,7 +167,6 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
   color: white;
 }
 .tab-item{
-  
   font-weight: 500;
   padding: 19px 40px 10px 40px;
   text-align: center;
@@ -176,11 +174,6 @@ background: linear-gradient(to right, #f5af19, #f12711); color:#fff;
 .tab-item:hover{
   opacity: 0.8;
   cursor: pointer;
-}
-.tab-item.active{
-  border-radius: 8px;
-  color:white;
-  background: linear-gradient(to right, #f5af1996, #f127118f);
 }
 .tab-items{
   font-weight: 500;
@@ -337,10 +330,7 @@ img{
 
 }
 .search-icon{
-  position: absolute;
-  font-size: 2rem;
-  left: 32%;
-  color:orangered;
+  color:o
 }
 .filter-item{
   text-align: center;
