@@ -133,18 +133,17 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width: 700px;
 }
 #Navbar{
-  margin-left: 83.85%;
+  margin-left: 90%;
   z-index: 5;
   margin-top: 12px;
   background: #56CCF2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  width: 300px;
+  width: 200px;
 }
 .Nav-username{
-  padding-bottom: 5px;
-  border-bottom: 2px solid white;
+  margin-right: 10px;
   color: #ffff;
 }
 .center{
@@ -194,7 +193,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   border-radius: 8px;
   color:white;
   background: #56CCF2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #2f81ed7a, #56cbf277);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -219,17 +218,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   height: 4px;
   border-radius: 15px;
   
-  background-image: linear-gradient(
-    -45deg,
-    #6cfcf5,
-    #09c2f0,
-    #0a6bfd,
-    #6b51ff,
-    #6006f0,
-    #de70ff,
-    rgb(0, 255, 191),
-    #41d0bd
-  );
+  background-image: linear-gradient(-45deg,to right, #56ccf2, #2f80ed);
   transition: all 0.2s ease;
   background-size: 500% 500%;
   animation: gradient 5s ease alternate infinite;
@@ -271,7 +260,6 @@ width: 100%;
 display: none;
 }
 .pane{
-
   margin-right: 40px;
   border: solid 1px orange;
   border-radius: 20px;
@@ -286,16 +274,14 @@ display: none;
   max-height: 325px;
  
 }
-.pane-img:hover img{
-  
-  transform: scale(1.1);
+.pane-img:hover{
   opacity: 0.7;
 }
 .pane-img img{  
-  transition: .5s;
   display: inline-block;
   position: relative;
-  left: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 150px;
   height: 150px;
   object-fit: contain;

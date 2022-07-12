@@ -143,8 +143,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width: 300px;
 }
 .Nav-username{
-  padding-bottom: 5px;
-  border-bottom: 2px solid white;
+  
   color: #ffff;
 }
 .center{

@@ -128,23 +128,22 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width: 400rem;
 }
 .search-input{
-  border: solid 1px rgb(0, 183, 255);
+  border: solid 1px orange;
   border-radius: 5px;
   width: 700px;
 }
 #Navbar{
-  margin-left: 83.85%;
+  margin-left: 90%;
   z-index: 5;
   margin-top: 12px;
   background: #56CCF2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  width: 300px;
+  width: 200px;
 }
 .Nav-username{
-  padding-bottom: 5px;
-  border-bottom: 2px solid white;
+  margin-right: 10px;
   color: #ffff;
 }
 .center{
@@ -218,17 +217,16 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width:0;
   height: 4px;
   border-radius: 15px;
-  
   background-image: linear-gradient(
     -45deg,
-    #6cfcf5,
-    #09c2f0,
-    #0a6bfd,
-    #6b51ff,
-    #6006f0,
-    #de70ff,
-    rgb(0, 255, 191),
-    #41d0bd
+    #fc6c8f,
+    #b2f009,
+    #fd0a0a,
+    #FF6651,
+    #e0f006,
+    #ffcc70,
+    yellow,
+    #d08d41
   );
   transition: all 0.2s ease;
   background-size: 500% 500%;
@@ -271,7 +269,6 @@ width: 100%;
 display: none;
 }
 .pane{
-
   margin-right: 40px;
   border: solid 1px orange;
   border-radius: 20px;
@@ -286,16 +283,14 @@ display: none;
   max-height: 325px;
  
 }
-.pane-img:hover img{
-  
-  transform: scale(1.1);
+.pane-img:hover{
   opacity: 0.7;
 }
 .pane-img img{  
-  transition: .5s;
   display: inline-block;
   position: relative;
-  left: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 150px;
   height: 150px;
   object-fit: contain;
@@ -363,7 +358,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   position: absolute;
   font-size: 2rem;
   left: 32%;
-  color:rgb(99, 99, 243);
+  color:;
 }
 .filter-item{
   text-align: center;
@@ -371,17 +366,15 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
 }
 .filter-btn{
   background: white;
-  color: blue; 
+  color: orangered; 
   width: 80px;
   height: 36px;
-  border: solid 1px rgb(0, 183, 255);
+  border: solid 1px orange;
 }
 
 .filter-btn:hover {
-  background: #56CCF2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711);  
   color:white;
 
 }

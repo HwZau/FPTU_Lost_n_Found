@@ -133,7 +133,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width: 700px;
 }
 #Navbar{
-  margin-left: 83.85%;
+  margin-left: 83%;
   z-index: 5;
   margin-top: 12px;
   background: #56CCF2;  /* fallback for old browsers */
@@ -143,8 +143,7 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
   width: 300px;
 }
 .Nav-username{
-  padding-bottom: 5px;
-  border-bottom: 2px solid white;
+  
   color: #ffff;
 }
 .center{
