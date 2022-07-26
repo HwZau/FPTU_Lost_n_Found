@@ -15,6 +15,31 @@
 </head>
 
 <body>
+    <!-- <header>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                                Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
+                                    class="fa fa-info fa-lg"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>
+                                Menu</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                    class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    </ul>
+                    <span class="navbar-text ml-auto"><a data-toggle="modal" data-target="#loginModal">
+                            <span class="fa fa-sign-in"></span> Login</a></span>
+                </div>
+            </div>
+        </nav>
+    </header> -->
 
     <header>
         <nav class="navbar navbar-dark navbar-expand-md fixed-top">
@@ -46,7 +71,10 @@
                     </div>
                     <div class="fw-normal fs--1 scrollbar list-group list-group-flush" style="max-height: 19rem;">
                     </div>
-
+                    <div class="list-group-title" style="  background-color: white;font-weight: 600;
+                              font-size: 0.8rem;
+                              color: #999999;
+                              padding: 0.25rem 1.25rem;">NEW</div>
                     <div class="list-group-item">
                         <a class="notification" style="text-decoration: none" href="/#!">
                             <div class="notification-avatar" style="background-color: white;">
@@ -179,59 +207,85 @@
 
 
     </header>
-    <div class="profile mt-4 ml-4 p-4 ">
-        <section id="about" class="about">
 
-            <div class="container" data-aos="fade-up">
-                <div class="row">
+    <div class="search-form">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <form class="search col-md-4">
+            <div class="search-field">
+                <input type="text" class="search-input p-1" placeholder="Tìm kiếm ">
+            </div>
 
-                    <div class="col-lg-5 col-md-6">
-                        <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-                            <img src="./img/logo.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7 col-md-6">
-                        <div class="about-content" data-aos="fade-left" data-aos-delay="100">
-                            <h2>About Us</h2>
-                            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores
-                                neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam
-                                molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi
-                                aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt
-                                accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</li>
-                                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.</li>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                            </ul>
-                        </div>
+            <button class="search-button p-1 pl-3 pr-3 ml-2">Tìm</button>
+        </form>
+    </div>
+    <div id="header-carousel" class="carousel slide mt-3" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 410px;">
+                <img class="img-fluid" src="img/tải xuống.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-end">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-uppercase font-weight-medium mb-3">FPTU Lost&Found</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Bla bla vla</h3>
+                        <!-- <a href="" class="btn btn-light py-2 px-3"></a> -->
                     </div>
                 </div>
             </div>
-
-        </section><!-- End About Section -->
-
+            <div class="carousel-item " style="height: 410px;">
+                <img class="img-fluid" src="img/nhanpham.png" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-end">
+                    <div class="p-3" style="max-width: 700px;">
+                        <p>Product: Nhân phẩmsssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+                        <p>Thể loại: </p>
+                        <p>Name: Lê Minh Thiện</p>
+                        <a href="" class="btn btn-light py-2 px-3">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+            <div class="btn btn-primary" style="width: 45px; height: 35px;">
+                <span class="carousel-control-prev-icon mb-n2"></span>
+            </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+            <div class="btn btn-primary" style="width: 45px; height: 35px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a>
     </div>
-    <div class="tabs tabs--profile">
+    <div class="tabs">
+        <div style="width: 45px;" class="dropdown filter">
+            <div style="width: 80px; padding: 0;" class="dropdown-select">
+                <span class="dropdown-value filter-btn btn"><i class=" fa-solid fa-filter"></i> Filter</span>
+            </div>
+            <div style=" min-width: 170px; max-width: 200px;" class="dropdown-list filter-list mt-3">
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+                <a href="#" class="dropdown-item filter-item text-white">title</a>
+            </div>
+        </div>
         <div class="tab-item active">
-            Posts
+            Lost
         </div>
         <div class="tab-item">
-            About
+            Found
+        </div>
+        <div class="tab-item">
+            Announcement of Admin
         </div>
         <div class="line"></div>
     </div>
     <!-- tab content -->
-    <div class="tab-content tab-content--profile mt-3">
-        <div class="tab-pane tab-pane--profile active">
-            <div class="pane col-md-4 mb-3">
+    <div class="tab-content">
+        <a type="button" href="createPost.html" class="center createPost--btn btn rounded-circle"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <div class="row tab-pane active">
+
+
+            <div class="pane mb-3">
                 <div class="card h-100">
                     <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
                     </div>
@@ -244,7 +298,21 @@
                     </div>
                 </div>
             </div>
-            <div class="pane col-md-4 mb-3">
+            <div class="pane mb-3">
+                <div class="card h-100">
+                    <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
+                    </div>
+                    <div class="card-body pane-content">
+                        <h5 class="card-title">Card titleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                        </h5>
+                        <p class="card-text">Product: Nhân phẩmssssssssssssssssssssssssssssssssssssssssssssssS</p>
+                        <p class="card-text">Thể loại: </p>
+                        <p class="card-text">Name: Lê Minh Thiện</p>
+                        <a href="javascript:void(0)" class="btn btn-outline-primary pb-4">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pane mb-3">
                 <div class="card h-100">
                     <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
                     </div>
@@ -257,7 +325,9 @@
                     </div>
                 </div>
             </div>
-            <div class="pane col-md-4 mb-3">
+
+
+            <div class="pane mb-3">
                 <div class="card h-100">
                     <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
                     </div>
@@ -270,7 +340,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pane col-md-4 mb-3">
+            <div class="pane mb-3">
                 <div class="card h-100">
                     <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
                     </div>
@@ -283,33 +353,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pane col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
-                    </div>
-                    <div class="card-body pane-content">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Product: Nhân phẩmssssssssssssssssssssssssssssssssssssssssssssssS</p>
-                        <p class="card-text">Thể loại: </p>
-                        <p class="card-text">Name: Lê Minh Thiện</p>
-                        <a href="javascript:void(0)" class="btn btn-outline-primary pb-4">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="pane col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
-                    </div>
-                    <div class="card-body pane-content">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Product: Nhân phẩmssssssssssssssssssssssssssssssssssssssssssssssS</p>
-                        <p class="card-text">Thể loại: </p>
-                        <p class="card-text">Name: Lê Minh Thiện</p>
-                        <a href="javascript:void(0)" class="btn btn-outline-primary pb-4">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="pane col-md-4 mb-3">
+            <div class="pane mb-3">
                 <div class="card h-100">
                     <div class="pane-img"><img class="card-img-top " src="img/logo.jpg" alt="Card image cap" />
                     </div>
@@ -324,20 +368,17 @@
             </div>
 
         </div>
+
         <div class="row tab-pane">
-            <div class="pane-content">
-                <p class="pane-content--info">Fullname</p>
-                <p class="pane-content--info">Fullname</p>
-                <p class="pane-content--info">Fullname</p>
-                <p class="pane-content--info">Fullname</p>
-                <p class="pane-content--info">Fullname</p>
-            </div>
+
 
         </div>
+        <div class="row tab-pane"></div>
+    </div>
 
     </div>
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <footer class=" text-center text-lg-start bg-light text-muted">
         <!-- Section: Social media -->
         <section class="text-white d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <!-- Left -->
